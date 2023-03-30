@@ -1,0 +1,100 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quizit3-prod-214330-authRole",
+      "UnauthRoleArn": "arn:aws:iam::331566579748:role/amplify-quizit3-prod-214330-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::331566579748:role/amplify-quizit3-prod-214330-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-quizit3-prod-214330-deployment",
+      "UnauthRoleName": "amplify-quizit3-prod-214330-unauthRole",
+      "StackName": "amplify-quizit3-prod-214330",
+      "StackId": "arn:aws:cloudformation:eu-west-1:331566579748:stack/amplify-quizit3-prod-214330/11e206e0-7451-11ea-afef-0a0af0d573f8",
+      "AmplifyAppId": "d1qdenhzp003kw"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1qdenhzp003kw",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "quizit3df1a9e52df1a9e52": {}
+      },
+      "function": {
+        "addData": {},
+        "S3Trigger739d230f": {}
+      }
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quizit3-test-163419-authRole",
+      "UnauthRoleArn": "arn:aws:iam::331566579748:role/amplify-quizit3-test-163419-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::331566579748:role/amplify-quizit3-test-163419-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-quizit3-test-163419-deployment",
+      "UnauthRoleName": "amplify-quizit3-test-163419-unauthRole",
+      "StackName": "amplify-quizit3-test-163419",
+      "StackId": "arn:aws:cloudformation:eu-west-1:331566579748:stack/amplify-quizit3-test-163419/af9aa6a0-8638-11ea-b924-0ac92d082ee0",
+      "AmplifyAppId": "d1qdenhzp003kw"
+    },
+    "categories": {
+      "auth": {
+        "quizit3df1a9e52df1a9e52": {}
+      },
+      "function": {
+        "addData": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1qdenhzp003kw",
+          "type": "manual"
+        }
+      }
+    }
+  },
+  "kwizz": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quizit3-kwizz-131553-authRole",
+      "UnauthRoleArn": "arn:aws:iam::750904275486:role/amplify-quizit3-kwizz-131553-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::750904275486:role/amplify-quizit3-kwizz-131553-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-quizit3-kwizz-131553-deployment",
+      "UnauthRoleName": "amplify-quizit3-kwizz-131553-unauthRole",
+      "StackName": "amplify-quizit3-kwizz-131553",
+      "StackId": "arn:aws:cloudformation:us-east-1:750904275486:stack/amplify-quizit3-kwizz-131553/e86a5160-cece-11ed-a139-0afbf588d321",
+      "AmplifyAppId": "d263i4phxdnnwh"
+    },
+    "categories": {
+      "auth": {
+        "quizit3df1a9e52df1a9e52": {}
+      },
+      "function": {
+        "addData": {
+          "deploymentBucketName": "amplify-quizit3-kwizz-131553-deployment",
+          "s3Key": "amplify-builds/addData-52784f69644361335172-build.zip"
+        },
+        "S3Trigger739d230f": {
+          "deploymentBucketName": "amplify-quizit3-kwizz-131553-deployment",
+          "s3Key": "amplify-builds/S3Trigger739d230f-706f415a6c4853455861-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d263i4phxdnnwh",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "quizit3": {}
+      },
+      "predictions": {
+        "interpretText": {}
+      },
+      "storage": {
+        "questionImages": {}
+      }
+    }
+  }
+}
